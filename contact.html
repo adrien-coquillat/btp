@@ -23,8 +23,26 @@
             </span>
         </nav>
     </header>
-    <main>
+    <main id="maincontact">
+        <div class="cadrecontact">
+            <div class="principalcontact">
+                <h2>Contact:</h2>
+                <form method="post" action="accueil.html">
 
+                    <label class="formecontact" for="identifiant">Nom:</label><br>
+                    <input class="formecontact" type="text" class="identifiant" name="identifiant"><br>
+                    <label class="formecontact" for="identifiant">Prenom:</label><br>
+                    <input class="formecontact" type="text" class="identifiant" name="identifiant"><br>
+                    <label class="formecontact" for="email">Email:</label><br>
+                    <input class="formecontact" type="text" class="email" name="email"
+                        placeholder="exemple@exemple.com"><br>
+                    <label class="formecontact" for="message">Message:</label><br>
+                    <textarea class="message" name="message"></textarea><br>
+                    <input class="valider" type="submit" value="Valider" color=black>
+
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <img class="logo-footer" src="images/logo.png" alt="logo">
@@ -38,4 +56,5 @@
         </div>
     </footer>
 </body>
+
 </html>
