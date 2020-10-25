@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 * {
     margin: 0;
@@ -39,6 +40,73 @@ body,
 html {
     width: 100%;
     height: auto;
+}
+
+
+
+.puce {
+    height: 80px;
+    width: 80px;
+}
+
+#accueil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 50px 0 50px;
+
+}
+
+.listeaccueil {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.ligneaccueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    align-items: center;
+    color: #042a2b;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    margin: 30px 0 30px 0;
+}
+
+.accueil1 {
+    box-shadow: 0px 0px 30px #042a2b;
+}
+
+#devis {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    margin: 150px 0 100px 0;
+}
+
+
+
+.colaccueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #042a2b;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+.accueil2 {
+    width: 900px;
+    box-shadow: 0px 0px 30px #042a2b;
 }
 
 footer {
