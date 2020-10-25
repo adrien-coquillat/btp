@@ -222,4 +222,39 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+.titre-realisation{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para1-realisation{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Syne Mono', monospace;
+    background-color: #ef7b45;
+    padding: 5px;
+}
+.soustitre-realisation{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.photo-maison{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.maison{
+    width: 300px;
+    height: 200px;
+    border: solid black 2px;
+}
+
+
 
