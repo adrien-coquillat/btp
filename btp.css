@@ -47,7 +47,6 @@ footer {
     background-color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
     border-top: black;
     box-shadow: 0px 0px 30px #042a2b;
     align-items: center;
@@ -94,4 +93,78 @@ footer {
 .logo-reseaux {
     width: 100px;
     height: 100px;
+}
+.map{
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.screen-map{
+    width: 400px;
+    height: 200px;
+}
+.text1-presentation{
+    margin-top: 50px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+.paragraphe1-prensentation{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Syne Mono', monospace;
+    padding: 8px;
+    background-color: #ef7b45;
+    border-radius: 10px;
+    border: solid #042a2b 2px;
+}
+.text2-presentation{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.paragraphe2-prensentation{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Syne Mono', monospace;
+}
+.text3-presentation{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.paragraphe3-prensentation{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Syne Mono', monospace;
+    text-decoration: underline;
+}
+.image-materiel{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image-materiel1{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 20px grey;
+}
+.image-materiel2{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 20px grey;
 }
